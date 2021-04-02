@@ -143,7 +143,7 @@ button{
   width: 226px;
 }
 
-.todo-list__item > button.delete:hover {
+.todo-list__item >  .btn_delete:hover {
   color: #CF2323;
 }
 

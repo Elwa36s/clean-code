@@ -31,7 +31,8 @@
   margin: 0 auto 0;
 }
 
-.main__input {
+.main__input,
+.todo-list__item__label {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -132,7 +133,7 @@ button{
   margin: 0 10px;
 }
 
-.todo-list__item__label {
+.todo-list__item > .todo-list__item__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -143,7 +144,7 @@ button{
   width: 226px;
 }
 
-.todo-list__item >  .btn_delete:hover {
+.todo-list__item > .btn_delete:hover {
   color: #CF2323;
 }
 
@@ -168,11 +169,12 @@ button{
   display: none;
 }
 
-.todo-list__item_edit .main__input {
+.todo-list .todo-list__item_edit .todo-list__item__label,
+.todo-list .todo-list__item_edit .main__input{
   display: inline-block;
   width: 224px;
 }
 
-.todo-list__item_edit .todo-list__item__label {
+.todo-list .todo-list__item_edit .todo-list__item__label {
   display: none;
 }

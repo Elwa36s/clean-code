@@ -165,7 +165,7 @@ button{
 }
 
 /* Edit Task */
-.todo-list__item .main__input {
+.todo-list .todo-list__item .main__input {
   display: none;
 }
 
